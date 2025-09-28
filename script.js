@@ -27,3 +27,5 @@ const getSum = () => {
 
 getSumBtn.addEventListener("click", getSum);
 
+getSum()
+
