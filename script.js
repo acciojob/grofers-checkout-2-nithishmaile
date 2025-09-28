@@ -15,10 +15,11 @@ const getSum = () => {
     table.appendChild(trElement);
     let tdElement=document.createElement("td");
     tdElement.textContent="Total Price";
+	tdElement.setAttribute("data-ns-test","grandTotal");
     trElement.appendChild(tdElement)
     let td2Element=document.createElement("td");
     td2Element.innerHTML=`${totalPrice}`;
-	td2Element.setAttribute("data-ns-test","grandTotal");
+	//td2Element.setAttribute("data-ns-test","grandTotal");
     trElement.appendChild(td2Element);
   
 };
